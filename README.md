@@ -5,3 +5,4 @@ app para la administracion de presupuesto personal
 npm install
 nodemon
 
+Sequelize, MySql, Express, express-validator, express-router, express-session, bcrypt   
