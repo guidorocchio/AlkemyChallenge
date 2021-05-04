@@ -1,0 +1,20 @@
+rutas 
+get /login ----- Formulario de login---- solo pa front
+post /login ----- Check user and password
+
+get /register ----- Formulario de registracion ---- solo pa front
+post /register ----- postea un nuevo user
+
+get /userid/transactions ---- ver transacciones de usuario
+post /userid/transactions ---- agregar una nueva transaccion
+
+get /userid/create --------- devuelve vista del formulario pa crear una transaccion --- solo front
+
+get /userid/transactions/id ----- devuelve el detalle de una transaccion
+put /userid/transactions/id ------ edita el detalle de una transaccion
+delete /userid/transactions/id----- edita el detalle de una transaccion
+get /userid/transactions/id ------- borra una transaccion
+get /userid/transactions/create----- crea una transacciones
+
+
+
